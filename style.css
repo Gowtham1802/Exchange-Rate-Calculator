@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+.currency{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img{
+  width: 200px;
+  margin-top: -30px;
+}
+
+.rate{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 42px;
+  margin-top: 15px;
+  color: rgb(3, 156, 3);
+}
+
+.exc{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+#option{
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 30px;
+  background-color: #e5e5e5;
+}
+
+.swap{
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color: rgb(3, 156, 3);
+  border-radius: 10px;
+}
+
+#options{
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 30px;
+  background-color: #e5e5e5;
+}
+
+#num{
+  width: 300px;
+  height: 50px;
+  margin-left: 250px;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  border: none;
+}
